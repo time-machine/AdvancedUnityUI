@@ -29,7 +29,7 @@ namespace Assets.Scripts.Windows
 
         public void NewGame()
         {
-            Debug.Log("New Game Pressed");
+            manager.Open(1);
         }
 
         public void Continue()

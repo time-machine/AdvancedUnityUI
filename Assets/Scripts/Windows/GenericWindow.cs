@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts.Managers;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace Assets.Scripts.Windows
 {
     public class GenericWindow : MonoBehaviour
     {
+        public static WindowManager manager;
+
         public GameObject FirstSelected;
 
         protected EventSystem EventSystem => GameObject.Find("EventSystem").GetComponent<EventSystem>();

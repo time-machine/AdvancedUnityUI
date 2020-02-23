@@ -54,12 +54,12 @@ namespace Assets.Scripts.Windows
 
         public void OnAccept()
         {
-            manager.Open(0);
+            OnNextWindow();
         }
 
         public void OnCancel()
         {
-            manager.Open(1);
+            OnPreviousWindow();
         }
     }
 }

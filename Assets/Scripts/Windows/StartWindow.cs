@@ -29,7 +29,7 @@ namespace Assets.Scripts.Windows
 
         public void NewGame()
         {
-            manager.Open(1);
+            OnNextWindow();
         }
 
         public void Continue()

@@ -7,6 +7,8 @@ namespace Assets.Scripts.Windows
     public class GenericWindow : MonoBehaviour
     {
         public static WindowManager manager;
+        public global::Windows nextWindow;
+        public global::Windows previousWindow;
 
         public GameObject FirstSelected;
 
@@ -36,6 +38,16 @@ namespace Assets.Scripts.Windows
         protected virtual void Awake()
         {
             Close();
+        }
+
+        public void OnNextWindow()
+        {
+            manager.Open((int)nextWindow - 1);
+        }
+
+        public void OnPreviousWindow()
+        {
+            manager.Open((int)previousWindow - 1);
         }
     }
 }

@@ -5,6 +5,7 @@ namespace Assets.Scripts.Managers
 {
     public class WindowManager : MonoBehaviour
     {
+        [HideInInspector]
         public GenericWindow[] windows;
         public int currentWindowId;
         public int defaultWindowId;

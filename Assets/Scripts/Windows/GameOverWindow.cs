@@ -78,7 +78,7 @@ namespace Assets.Scripts.Windows
 
         public void OnNext()
         {
-            manager.Open(2);
+            OnNextWindow();
         }
     }
 }

@@ -406,6 +406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 963994f7dbabdef4b8fce5f7b7a51c33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextWindow: 1
+  previousWindow: 2
   FirstSelected: {fileID: 0}
   inputField: {fileID: 938661072}
   maxCharacters: 7
@@ -1974,6 +1976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8734863218cc49e4e9e5f8873753e4fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextWindow: 2
+  previousWindow: 0
   FirstSelected: {fileID: 172758159}
   ContinueButton: {fileID: 1791134254}
 --- !u!114 &366475421 stripped
@@ -8904,6 +8908,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62cdc6692c4b7646a06ea83a03c8c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextWindow: 3
+  previousWindow: 0
   FirstSelected: {fileID: 1490580952}
   leftStatsLabel: {fileID: 1358947898}
   leftStatsValues: {fileID: 2082641743}
